@@ -60,8 +60,8 @@ const LoginScreen = ({ navigation }) => {
           </Text>
         </View>
 
-        <Pressable style={styles.demobutton} onPress={() => navigation.navigate('Home')}>
-          <Text style={styles.buttonText}>View Demo</Text>
+        <Pressable style={styles.demobutton} onPress={() => navigation.navigate('res')}>
+          <Text style={styles.buttonText}>Login as Responder</Text>
         </Pressable>
       </View>
     </ScrollView>
@@ -124,12 +124,12 @@ const styles = StyleSheet.create({
   },
   demobutton: {
     alignItems: 'center',
-    backgroundColor: 'gray',
+    backgroundColor: 'grey',
     borderRadius: 10,
     padding: 7,
     marginTop: 20,
-    marginLeft: '24%',
-    width: '58%',
+    marginLeft: '5%',
+    width: '90%',
   },
   buttonText: {
     color: 'white',
